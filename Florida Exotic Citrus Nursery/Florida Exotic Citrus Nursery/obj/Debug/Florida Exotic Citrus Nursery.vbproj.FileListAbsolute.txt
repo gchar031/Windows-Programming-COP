@@ -1,0 +1,13 @@
+C:\Users\gilda\source\repos\COP 4005\Florida Exotic Citrus Nursery\Florida Exotic Citrus Nursery\bin\Debug\Florida Exotic Citrus Nursery.exe.config
+C:\Users\gilda\source\repos\COP 4005\Florida Exotic Citrus Nursery\Florida Exotic Citrus Nursery\bin\Debug\Florida Exotic Citrus Nursery.exe
+C:\Users\gilda\source\repos\COP 4005\Florida Exotic Citrus Nursery\Florida Exotic Citrus Nursery\bin\Debug\Florida Exotic Citrus Nursery.pdb
+C:\Users\gilda\source\repos\COP 4005\Florida Exotic Citrus Nursery\Florida Exotic Citrus Nursery\bin\Debug\Florida Exotic Citrus Nursery.xml
+C:\Users\gilda\source\repos\COP 4005\Florida Exotic Citrus Nursery\Florida Exotic Citrus Nursery\obj\Debug\Florida Exotic Citrus Nursery.vbprojAssemblyReference.cache
+C:\Users\gilda\source\repos\COP 4005\Florida Exotic Citrus Nursery\Florida Exotic Citrus Nursery\obj\Debug\Florida_Exotic_Citrus_Nursery.frmOrder.resources
+C:\Users\gilda\source\repos\COP 4005\Florida Exotic Citrus Nursery\Florida Exotic Citrus Nursery\obj\Debug\Florida_Exotic_Citrus_Nursery.frmSummary.resources
+C:\Users\gilda\source\repos\COP 4005\Florida Exotic Citrus Nursery\Florida Exotic Citrus Nursery\obj\Debug\Florida_Exotic_Citrus_Nursery.Resources.resources
+C:\Users\gilda\source\repos\COP 4005\Florida Exotic Citrus Nursery\Florida Exotic Citrus Nursery\obj\Debug\Florida Exotic Citrus Nursery.vbproj.GenerateResource.cache
+C:\Users\gilda\source\repos\COP 4005\Florida Exotic Citrus Nursery\Florida Exotic Citrus Nursery\obj\Debug\Florida Exotic Citrus Nursery.vbproj.CoreCompileInputs.cache
+C:\Users\gilda\source\repos\COP 4005\Florida Exotic Citrus Nursery\Florida Exotic Citrus Nursery\obj\Debug\Florida Exotic Citrus Nursery.exe
+C:\Users\gilda\source\repos\COP 4005\Florida Exotic Citrus Nursery\Florida Exotic Citrus Nursery\obj\Debug\Florida Exotic Citrus Nursery.xml
+C:\Users\gilda\source\repos\COP 4005\Florida Exotic Citrus Nursery\Florida Exotic Citrus Nursery\obj\Debug\Florida Exotic Citrus Nursery.pdb

@@ -30,7 +30,7 @@ Partial Class frmSummary
         '
         Me.btnClose.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.btnClose.Font = New System.Drawing.Font("Microsoft YaHei UI", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnClose.Location = New System.Drawing.Point(270, 424)
+        Me.btnClose.Location = New System.Drawing.Point(292, 447)
         Me.btnClose.Name = "btnClose"
         Me.btnClose.Size = New System.Drawing.Size(187, 54)
         Me.btnClose.TabIndex = 0
@@ -40,19 +40,21 @@ Partial Class frmSummary
         'lblSummary
         '
         Me.lblSummary.BackColor = System.Drawing.Color.MintCream
-        Me.lblSummary.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblSummary.Font = New System.Drawing.Font("Microsoft YaHei", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblSummary.Location = New System.Drawing.Point(23, 19)
         Me.lblSummary.Name = "lblSummary"
-        Me.lblSummary.Size = New System.Drawing.Size(419, 369)
+        Me.lblSummary.Size = New System.Drawing.Size(432, 413)
         Me.lblSummary.TabIndex = 1
+        Me.lblSummary.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
         'frmSummary
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
+        Me.AutoSize = True
         Me.BackColor = System.Drawing.SystemColors.ActiveBorder
         Me.BackgroundImage = Global.Florida_Exotic_Citrus_Nursery.My.Resources.Resources.tree
-        Me.ClientSize = New System.Drawing.Size(469, 502)
+        Me.ClientSize = New System.Drawing.Size(491, 526)
         Me.Controls.Add(Me.lblSummary)
         Me.Controls.Add(Me.btnClose)
         Me.Name = "frmSummary"

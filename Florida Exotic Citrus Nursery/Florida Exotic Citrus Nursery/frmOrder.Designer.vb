@@ -39,6 +39,8 @@ Partial Class frmOrder
         Me.chkbDelivery = New System.Windows.Forms.CheckBox()
         Me.chkbPlanting = New System.Windows.Forms.CheckBox()
         Me.grpCustomerInfo = New System.Windows.Forms.GroupBox()
+        Me.txtbCity = New System.Windows.Forms.TextBox()
+        Me.lblCity = New System.Windows.Forms.Label()
         Me.txtbState = New System.Windows.Forms.TextBox()
         Me.txtbLastN = New System.Windows.Forms.TextBox()
         Me.mskZip = New System.Windows.Forms.MaskedTextBox()
@@ -63,6 +65,7 @@ Partial Class frmOrder
         'lblQuantity
         '
         Me.lblQuantity.AutoSize = True
+        Me.lblQuantity.BackColor = System.Drawing.Color.MintCream
         Me.lblQuantity.Font = New System.Drawing.Font("Microsoft YaHei", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblQuantity.Location = New System.Drawing.Point(372, 349)
         Me.lblQuantity.Name = "lblQuantity"
@@ -73,6 +76,7 @@ Partial Class frmOrder
         'lblOptional
         '
         Me.lblOptional.AutoSize = True
+        Me.lblOptional.BackColor = System.Drawing.Color.MintCream
         Me.lblOptional.Font = New System.Drawing.Font("Microsoft YaHei", 7.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblOptional.Location = New System.Drawing.Point(547, 349)
         Me.lblOptional.Name = "lblOptional"
@@ -87,9 +91,9 @@ Partial Class frmOrder
         Me.lblInstruct.Font = New System.Drawing.Font("Microsoft YaHei", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblInstruct.Location = New System.Drawing.Point(9, 89)
         Me.lblInstruct.Name = "lblInstruct"
-        Me.lblInstruct.Size = New System.Drawing.Size(254, 23)
+        Me.lblInstruct.Size = New System.Drawing.Size(303, 23)
         Me.lblInstruct.TabIndex = 4
-        Me.lblInstruct.Text = "Please fill out the form below."
+        Me.lblInstruct.Text = "Please fill out the order form below."
         '
         'errP
         '
@@ -166,6 +170,7 @@ Partial Class frmOrder
         '
         'GroupBox1
         '
+        Me.GroupBox1.BackColor = System.Drawing.Color.MintCream
         Me.GroupBox1.Controls.Add(Me.Label6)
         Me.GroupBox1.Controls.Add(Me.Label5)
         Me.GroupBox1.Controls.Add(Me.Label1)
@@ -185,45 +190,52 @@ Partial Class frmOrder
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft YaHei", 7.8!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.BackColor = System.Drawing.Color.White
+        Me.Label2.Font = New System.Drawing.Font("Microsoft YaHei", 9.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.Maroon
         Me.Label2.Location = New System.Drawing.Point(372, 408)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(133, 20)
+        Me.Label2.Size = New System.Drawing.Size(146, 20)
         Me.Label2.TabIndex = 11
         Me.Label2.Text = "Limit 5 per person."
         '
         'txtbQuantity
         '
+        Me.txtbQuantity.BackColor = System.Drawing.Color.MintCream
         Me.txtbQuantity.Location = New System.Drawing.Point(376, 372)
         Me.txtbQuantity.MaxLength = 1
         Me.txtbQuantity.Name = "txtbQuantity"
-        Me.txtbQuantity.Size = New System.Drawing.Size(133, 25)
+        Me.txtbQuantity.Size = New System.Drawing.Size(131, 25)
         Me.txtbQuantity.TabIndex = 12
         Me.txtbQuantity.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'chkbDelivery
         '
         Me.chkbDelivery.AutoSize = True
+        Me.chkbDelivery.BackColor = System.Drawing.Color.MintCream
         Me.chkbDelivery.Location = New System.Drawing.Point(556, 381)
         Me.chkbDelivery.Name = "chkbDelivery"
         Me.chkbDelivery.Size = New System.Drawing.Size(127, 24)
         Me.chkbDelivery.TabIndex = 13
         Me.chkbDelivery.Text = "Delivery  ($10)"
-        Me.chkbDelivery.UseVisualStyleBackColor = True
+        Me.chkbDelivery.UseVisualStyleBackColor = False
         '
         'chkbPlanting
         '
         Me.chkbPlanting.AutoSize = True
+        Me.chkbPlanting.BackColor = System.Drawing.Color.MintCream
         Me.chkbPlanting.Location = New System.Drawing.Point(556, 411)
         Me.chkbPlanting.Name = "chkbPlanting"
         Me.chkbPlanting.Size = New System.Drawing.Size(174, 24)
         Me.chkbPlanting.TabIndex = 14
         Me.chkbPlanting.Text = "Planting ($8 per tree)"
-        Me.chkbPlanting.UseVisualStyleBackColor = True
+        Me.chkbPlanting.UseVisualStyleBackColor = False
         '
         'grpCustomerInfo
         '
+        Me.grpCustomerInfo.BackColor = System.Drawing.Color.MintCream
+        Me.grpCustomerInfo.Controls.Add(Me.txtbCity)
+        Me.grpCustomerInfo.Controls.Add(Me.lblCity)
         Me.grpCustomerInfo.Controls.Add(Me.txtbState)
         Me.grpCustomerInfo.Controls.Add(Me.txtbLastN)
         Me.grpCustomerInfo.Controls.Add(Me.mskZip)
@@ -236,31 +248,49 @@ Partial Class frmOrder
         Me.grpCustomerInfo.Controls.Add(Me.lblAddress)
         Me.grpCustomerInfo.Controls.Add(Me.lblPhoneNum)
         Me.grpCustomerInfo.Controls.Add(Me.lblFirstN)
-        Me.grpCustomerInfo.Location = New System.Drawing.Point(19, 136)
+        Me.grpCustomerInfo.Location = New System.Drawing.Point(77, 136)
         Me.grpCustomerInfo.Name = "grpCustomerInfo"
-        Me.grpCustomerInfo.Size = New System.Drawing.Size(518, 173)
+        Me.grpCustomerInfo.Size = New System.Drawing.Size(586, 173)
         Me.grpCustomerInfo.TabIndex = 16
         Me.grpCustomerInfo.TabStop = False
         Me.grpCustomerInfo.Text = "Customer Information"
         '
+        'txtbCity
+        '
+        Me.txtbCity.Location = New System.Drawing.Point(227, 125)
+        Me.txtbCity.MaxLength = 50
+        Me.txtbCity.Name = "txtbCity"
+        Me.txtbCity.Size = New System.Drawing.Size(104, 25)
+        Me.txtbCity.TabIndex = 15
+        '
+        'lblCity
+        '
+        Me.lblCity.AutoSize = True
+        Me.lblCity.Location = New System.Drawing.Point(227, 102)
+        Me.lblCity.Name = "lblCity"
+        Me.lblCity.Size = New System.Drawing.Size(34, 20)
+        Me.lblCity.TabIndex = 14
+        Me.lblCity.Text = "City"
+        '
         'txtbState
         '
-        Me.txtbState.Location = New System.Drawing.Point(212, 125)
-        Me.txtbState.MaxLength = 50
+        Me.txtbState.Location = New System.Drawing.Point(350, 125)
+        Me.txtbState.MaxLength = 4
         Me.txtbState.Name = "txtbState"
-        Me.txtbState.Size = New System.Drawing.Size(132, 25)
+        Me.txtbState.Size = New System.Drawing.Size(53, 25)
         Me.txtbState.TabIndex = 13
         '
         'txtbLastN
         '
-        Me.txtbLastN.Location = New System.Drawing.Point(212, 57)
+        Me.txtbLastN.Location = New System.Drawing.Point(231, 57)
         Me.txtbLastN.Name = "txtbLastN"
-        Me.txtbLastN.Size = New System.Drawing.Size(132, 25)
+        Me.txtbLastN.Size = New System.Drawing.Size(152, 25)
         Me.txtbLastN.TabIndex = 12
         '
         'mskZip
         '
-        Me.mskZip.Location = New System.Drawing.Point(379, 125)
+        Me.mskZip.CutCopyMaskFormat = System.Windows.Forms.MaskFormat.IncludePromptAndLiterals
+        Me.mskZip.Location = New System.Drawing.Point(423, 125)
         Me.mskZip.Mask = "00000-9999"
         Me.mskZip.Name = "mskZip"
         Me.mskZip.Size = New System.Drawing.Size(118, 25)
@@ -269,7 +299,8 @@ Partial Class frmOrder
         '
         'mskPhoneNum
         '
-        Me.mskPhoneNum.Location = New System.Drawing.Point(379, 57)
+        Me.mskPhoneNum.CutCopyMaskFormat = System.Windows.Forms.MaskFormat.IncludePromptAndLiterals
+        Me.mskPhoneNum.Location = New System.Drawing.Point(423, 57)
         Me.mskPhoneNum.Mask = "(999) 000-0000"
         Me.mskPhoneNum.Name = "mskPhoneNum"
         Me.mskPhoneNum.Size = New System.Drawing.Size(118, 25)
@@ -279,7 +310,7 @@ Partial Class frmOrder
         'txtbAddress
         '
         Me.txtbAddress.Location = New System.Drawing.Point(22, 125)
-        Me.txtbAddress.MaxLength = 50
+        Me.txtbAddress.MaxLength = 100
         Me.txtbAddress.Name = "txtbAddress"
         Me.txtbAddress.Size = New System.Drawing.Size(156, 25)
         Me.txtbAddress.TabIndex = 9
@@ -294,7 +325,7 @@ Partial Class frmOrder
         'lblZip
         '
         Me.lblZip.AutoSize = True
-        Me.lblZip.Location = New System.Drawing.Point(375, 102)
+        Me.lblZip.Location = New System.Drawing.Point(419, 102)
         Me.lblZip.Name = "lblZip"
         Me.lblZip.Size = New System.Drawing.Size(34, 20)
         Me.lblZip.TabIndex = 5
@@ -303,7 +334,7 @@ Partial Class frmOrder
         'lblState
         '
         Me.lblState.AutoSize = True
-        Me.lblState.Location = New System.Drawing.Point(208, 102)
+        Me.lblState.Location = New System.Drawing.Point(346, 102)
         Me.lblState.Name = "lblState"
         Me.lblState.Size = New System.Drawing.Size(46, 20)
         Me.lblState.TabIndex = 4
@@ -312,7 +343,7 @@ Partial Class frmOrder
         'lblLastN
         '
         Me.lblLastN.AutoSize = True
-        Me.lblLastN.Location = New System.Drawing.Point(208, 34)
+        Me.lblLastN.Location = New System.Drawing.Point(227, 34)
         Me.lblLastN.Name = "lblLastN"
         Me.lblLastN.Size = New System.Drawing.Size(82, 20)
         Me.lblLastN.TabIndex = 3
@@ -330,7 +361,7 @@ Partial Class frmOrder
         'lblPhoneNum
         '
         Me.lblPhoneNum.AutoSize = True
-        Me.lblPhoneNum.Location = New System.Drawing.Point(375, 34)
+        Me.lblPhoneNum.Location = New System.Drawing.Point(419, 34)
         Me.lblPhoneNum.Name = "lblPhoneNum"
         Me.lblPhoneNum.Size = New System.Drawing.Size(115, 20)
         Me.lblPhoneNum.TabIndex = 1
@@ -384,6 +415,7 @@ Partial Class frmOrder
         'lblTitle
         '
         Me.lblTitle.AutoSize = True
+        Me.lblTitle.BackColor = System.Drawing.Color.Transparent
         Me.lblTitle.Font = New System.Drawing.Font("Palatino Linotype", 13.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.lblTitle.Location = New System.Drawing.Point(180, 20)
         Me.lblTitle.Name = "lblTitle"
@@ -395,7 +427,8 @@ Partial Class frmOrder
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 19.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None
+        Me.BackgroundImage = Global.Florida_Exotic_Citrus_Nursery.My.Resources.Resources.tree2
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.ClientSize = New System.Drawing.Size(740, 585)
         Me.Controls.Add(Me.lblTitle)
         Me.Controls.Add(Me.btnExit)
@@ -455,4 +488,6 @@ Partial Class frmOrder
     Friend WithEvents btnClear As Button
     Friend WithEvents btnSubmit As Button
     Friend WithEvents txtbState As TextBox
+    Friend WithEvents txtbCity As TextBox
+    Friend WithEvents lblCity As Label
 End Class
